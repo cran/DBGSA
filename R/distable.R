@@ -37,5 +37,5 @@ result[i,2]<-setdis(C,num,Meth)
 
 }
 df<-data.frame(GOid=name,genenum=result[,1],dis0=result[,2])
-write.table(df,file=resultname,row.names=F,quote=F)
+write.table(df,file=resultname,row.names=FALSE,quote=FALSE)
 }
