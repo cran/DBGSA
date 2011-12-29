@@ -12,11 +12,8 @@ w=0;
                   {
                    w=w+1;
                    }
-               else
-                   {break;
-                                         }
-                            }
-p=1-w/length(N)
+                     }
+p=1-w/m
 E[i,1]=p
 }
 
